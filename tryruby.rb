@@ -19,3 +19,5 @@ books = {
 splendid_books = books.select { |book, rating| rating == :splendid}
 puts "Splendid Books:"
 splendid_books.each { |book, rating| puts "#{book} - #{ratings[rating]}" }
+
+puts splendid_books.length
